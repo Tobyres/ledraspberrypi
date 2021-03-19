@@ -26,6 +26,9 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jxG-XA-N0Z">
                                 <rect key="frame" x="308" y="262" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="connectSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="zPh-kX-0YX"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LED Laufschrift" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9S-Zb-RYM">
                                 <rect key="frame" x="85" y="122" width="244" height="45"/>
@@ -54,6 +57,9 @@
                                 <state key="normal" title="Display">
                                     <color key="titleShadowColor" systemColor="labelColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="displayButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xKo-jc-JJl"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
